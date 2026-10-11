@@ -1,0 +1,11 @@
+asyncpg
+email-validator
+fastapi
+pydantic
+pydantic-settings
+PyJWT
+pwdlib[argon2]
+scalar-fastapi
+sqlalchemy[asyncio]
+sqlmodel
+uvicorn[standard]
