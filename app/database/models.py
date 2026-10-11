@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import date, datetime
 from enum import Enum
 
 from pydantic import EmailStr
@@ -25,3 +25,4 @@ class User(SQLModel, table=True):
     username: str
     email: EmailStr
     password_hash: str
+    created_at: date
